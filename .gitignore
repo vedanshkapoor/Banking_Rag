@@ -1,0 +1,37 @@
+# === Python bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+
+# === Environment files ===
+.env
+.env.*
+
+# === Logs ===
+*.log
+app.log
+
+# === PyCharm project files ===
+.idea/
+
+# === Output folders (e.g., FAISS index, temp storage) ===
+faiss_index/
+temp/
+
+# === OS/system files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Test cache ===
+.pytest_cache/
+.mypy_cache/
+
+# === VS Code (if ever used) ===
+.vscode/
